@@ -31,6 +31,7 @@
 .icon-instagram:before {
   content: "\e902";
   color: #e4405f;
+	margin-left: 5px;
 }
 .icon-facebook:before {
   content: "\e903";
@@ -42,7 +43,8 @@
 }
 .icon-menu:before {
   content: "\e900";
-	font-size: 25px;
+	font-size: 20px;
+	z-index: 999;
 }
 
 .icon-menu {
@@ -55,6 +57,7 @@
 	top: 35px;
 	font-size: 60px;
 	width: 50px;
+	cursor: pointer;
 	height: 50px;
 
 }
