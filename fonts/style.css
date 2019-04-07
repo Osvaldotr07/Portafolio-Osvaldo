@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'icomoon';
-  src:  url('icomoon.eot?jltphn');
-  src:  url('icomoon.eot?jltphn#iefix') format('embedded-opentype'),
-    url('icomoon.ttf?jltphn') format('truetype'),
-    url('icomoon.woff?jltphn') format('woff'),
-    url('icomoon.svg?jltphn#icomoon') format('svg');
+	font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?17ahfc');
+  src:  url('../fonts/icomoon.eot?17ahfc#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?17ahfc') format('truetype'),
+    url('../fonts/icomoon.woff?17ahfc') format('woff'),
+    url('../fonts/icomoon.svg?17ahfc#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -27,24 +27,33 @@
 .icon-github:before {
   content: "\e901";
 	color: #fff;
+	cursor: pointer;
 }
 .icon-instagram:before {
   content: "\e902";
   color: #e4405f;
 	margin-left: 5px;
+	cursor: pointer;
+}
+.icon-linkedin:before {
+  content: "\e905";
+  color: #0077b5;
 }
 .icon-facebook:before {
   content: "\e903";
   color: #3b5998;
+	cursor: pointer;
 }
 .icon-twitter:before {
   content: "\e904";
   color: #1da1f2;
+	cursor: pointer;
 }
 .icon-menu:before {
   content: "\e900";
 	font-size: 20px;
 	z-index: 999;
+	cursor: pointer;
 }
 
 .icon-menu {
@@ -57,7 +66,6 @@
 	top: 35px;
 	font-size: 60px;
 	width: 50px;
-	cursor: pointer;
 	height: 50px;
 
 }

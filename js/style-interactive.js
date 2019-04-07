@@ -10,3 +10,5 @@ $menuButton.addEventListener('click', () => {
 $inicioNavegacion.addEventListener('click', (evt) => {
 	$inicioNavegacion.classList.remove('active')
 })
+
+//Se agrega dinamismo a la galeria del apartado de AboutMe
