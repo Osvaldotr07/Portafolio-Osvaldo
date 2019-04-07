@@ -220,13 +220,14 @@ ol:hover {
 	justify-content: space-between;
 	width: 100%;
 }
-.galeria-dinamica li {
+.galeria-dinamica li, .galeria-experiencia li {
 	flex-grow: 1;
 	height: 400px;
 }
 li {
 	float: left;
 	position: relative;
+	border-radius: 5px;
 	padding: 10px 10px 25px 10px;
 	background: #eee;
 	border: 1px solid #fff;
@@ -272,8 +273,9 @@ li:hover {
 	height: 50px;
 	background-color:  #1d252c;
 }
-.galeria-dinamica li:nth-child(5) {
-	background: url("../images/diplomas/responsive.png") center/cover;
+.galeria-experiencia li:nth-child(1) {
+	background: url("../images/proyectos/proyecto-simon.png") center/cover;
+	transform: rotate(0) !important;
 }
 .footer-aboutme {
 	display: flex;
@@ -287,4 +289,28 @@ li:hover {
 }
 a {
 	text-decoration: none;
+}
+.container-item {
+	position: absolute;
+	display: flex;
+	align-items:  flex-start;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: inherit;
+	height: inherit;
+	font-size: 2em;
+	background: rgba(0,0,0,.5);
+
+}
+.galeria-experiencia li a i {
+	transition: 1s ease-in-out;
+}
+.galeria-experiencia li a:hover i {
+	transform: scale(1.5);
 }
