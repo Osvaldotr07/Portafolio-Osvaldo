@@ -1,5 +1,7 @@
-const $galeriaDinamica = document.getElementById('galeria-dinamica');
+const $contenido = document.getElementById('contenido');
 
-$galeriaDinamica.addEventListener('click', () => {
-	$galeriaDinamica.classList.toggle('activeItemdinamico')
+window.addEventListener('load', (evt) => {
+	if($contenido.classList.contains('hide')){
+		$contenido.classList.remove('hide')
+	}
 })

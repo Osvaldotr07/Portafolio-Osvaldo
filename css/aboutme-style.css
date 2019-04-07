@@ -322,3 +322,6 @@ a {
 .footer-aboutme h2 {
 	margin-left: 250px;
 }
+.hide {
+	visibility: hidden;
+}
