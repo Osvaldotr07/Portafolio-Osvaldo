@@ -48,7 +48,9 @@ body {
 .header-subtitulo {
 	color: #27cadd;
 }
-
+.hide {
+	visibility: hidden;
+}
 .contenido {
 	grid-area: contenido;
 	display:grid;
