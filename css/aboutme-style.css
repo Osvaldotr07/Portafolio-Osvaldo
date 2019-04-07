@@ -314,3 +314,11 @@ a {
 .galeria-experiencia li a:hover i {
 	transform: scale(1.5);
 }
+.footer-aboutme {
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+.footer-aboutme h2 {
+	margin-left: 250px;
+}
