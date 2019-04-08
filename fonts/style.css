@@ -51,6 +51,7 @@
 }
 .icon-menu:before {
   content: "\e900";
+	color: white;
 	font-size: 20px;
 	z-index: 999;
 	cursor: pointer;
@@ -61,7 +62,6 @@
 	display: flex;
 	justify-content: center;
 	right: 0;
-	color: #27cadd;
 	align-items: center;
 	top: 35px;
 	font-size: 60px;

@@ -6,6 +6,9 @@
 :after {
 	box-sizing: border-box;
 }
+.burger-button {
+	visibility: hidden;
+}
 body {
 	background: white;
 	margin: 0;
@@ -15,6 +18,9 @@ body {
 	margin-right: 250px;
 	margin-left: 250px;
 }
+.container-menu {
+		margin-right: 250px;
+	}
 .aboutme-navegacion {
 	width: 100%;
 	z-index: 10;
@@ -277,11 +283,7 @@ li:hover {
 	background: url("../images/proyectos/proyecto-simon.png") center/cover;
 	transform: rotate(0) !important;
 }
-.footer-aboutme {
-	display: flex;
-	justify-content:flex-end;
-	align-items: center;
-}
+
 
 .style-icon {
 	margin: 3px;
@@ -316,6 +318,7 @@ a {
 }
 .footer-aboutme {
 	display: flex;
+	align-items: center;
 	justify-content: space-between;
 	color: white;
 }
