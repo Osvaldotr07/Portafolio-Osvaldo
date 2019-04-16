@@ -13,6 +13,41 @@ body {
 	background: white;
 	margin: 0;
 }
+.wave {
+	position: absolute;
+	background: url("../images/landScape/waves.png") center top no-repeat;
+	width: 2202px;
+	height:407px;
+	right: -195px;
+	animation: 5s wave infinite alternate ease-in-out
+}
+.wave {
+	position: absolute;
+	bottom: -70px;
+	height:407px;
+}
+.waves.b{
+	animation-delay: 7s;
+	background-position: 0 -527px;
+}
+.wave.c {
+	animation-delay: 2s;
+	background-position: 0 -854px;
+}
+.wave.a {
+	background-position: 0 0;
+}
+@keyframes wave{
+	from {
+		transform: translate(0,0);
+	}
+	50% {
+		transform: translate(-80px, 30px);
+	}
+	to {
+		transform: translate(160px, -60px);
+	}
+}
 .container {
 	position: relative;
 	margin-right: 250px;
@@ -59,7 +94,7 @@ ol:hover {
 	color: white;
 	width: 100%;
 	box-shadow: 1px 2px 10px #333;
-	height: 500px;
+	height: 100vh;
 	display: flex;
 	align-items: center;
 	background: #ee5e45;
@@ -69,9 +104,11 @@ ol:hover {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	border: 1px solid #888888;
+	box-shadow: 1px 2px 10px #333;
 	width: 100%;
+	margin-top: 20px;
 	height: 600px;
-	border-bottom: 5px solid #eb402f;
 	border-radius: 10px;
 
 }
@@ -82,6 +119,8 @@ ol:hover {
 
 .photo-aboutme {
 	width: 450px;
+	position: relative;
+	z-index: 5;
 	height: 450px;
 	box-shadow: 1px 2px 10px #333;
 	border-radius: 10px;
@@ -104,7 +143,8 @@ ol:hover {
 	border-radius: 5px;
 }
 .conteiner-description {
-	width: 600px;
+	width: 400px;
+	margin-right: 50px;
 	font-family: 'Neucha', cursive;
 	font-size: 20px;
 }
