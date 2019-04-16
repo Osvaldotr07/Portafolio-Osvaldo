@@ -70,7 +70,10 @@ ol:hover {
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	height: 500px;
+	height: 600px;
+	border-bottom: 5px solid #eb402f;
+	border-radius: 10px;
+
 }
 .porcentaje {
 	font-family: 'Major Mono Display', monospace;
@@ -288,10 +291,14 @@ a {
 	align-items: center;
 	justify-content: space-between;
 	color: white;
+
 }
-.footer-aboutme h2 {
+
+.title-footer {
+	margin: 0;
 	margin-left: 250px;
 }
+
 .hide {
 	visibility: hidden;
 }
