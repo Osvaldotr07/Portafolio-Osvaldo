@@ -19,6 +19,7 @@ body {
 	width: 2202px;
 	height:407px;
 	right: -195px;
+	z-index: 0;
 	animation: 5s wave infinite alternate ease-in-out
 }
 .wave {
@@ -60,18 +61,14 @@ body {
 	width: 100%;
 	z-index: 10;
 	background: #1d252c;
-	opacity: .9;
+	opacity: 1;
 	height: 50px;
 	position: fixed;
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
-	will-change: opacity;
-	transition: 1s;
 }
-.aboutme-navegacion:hover {
-	opacity: 1;
-}
+
 ol,.inicio-menu {
 	padding: 5px;
 	list-style: none;
@@ -96,9 +93,18 @@ ol:hover {
 	box-shadow: 1px 2px 10px #333;
 	height: 100vh;
 	display: flex;
+	overflow: hidden;
+	position: relative;
 	align-items: center;
 	background: #ee5e45;
 	justify-content: center;
+}
+.container-waves {
+	height: 500px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .second-section {
 	display: flex;
@@ -116,7 +122,10 @@ ol:hover {
 	font-family: 'Major Mono Display', monospace;
 	font-weight: bold;
 }
-
+.info-section {
+	z-index: 10;
+	position: relative;
+}
 .photo-aboutme {
 	width: 450px;
 	position: relative;
