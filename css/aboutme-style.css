@@ -96,7 +96,7 @@ ol:hover {
 	overflow: hidden;
 	position: relative;
 	align-items: center;
-	background: #ee5e45;
+	background: #0f9bf6;
 	justify-content: center;
 }
 .container-waves {
@@ -300,6 +300,10 @@ li:hover {
 }
 .galeria-experiencia li:nth-child(1) {
 	background: url("../images/proyectos/proyecto-simon.png") center/cover;
+	transform: rotate(0) !important;
+}
+.galeria-experiencia li:nth-child(2) {
+	background: url("../images/proyectos/paint-online.jpg") center/cover;
 	transform: rotate(0) !important;
 }
 
